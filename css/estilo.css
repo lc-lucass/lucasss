@@ -1,0 +1,272 @@
+/* Estilos generales */
+body {
+  background: url("../images/Artificial Intelligence AI Stock Footage.gif")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+}
+
+/* Header con fondo negro semitransparente */
+#header-content {
+  display: flex;
+  justify-content: space-between; /* Coloca los elementos en los extremos */
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+  margin-bottom: 20px; /* Espacio debajo del header */
+}
+
+#logo img {
+  width: 170px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  margin-left: 20px; /* Espacio entre los enlaces del menú */
+}
+
+#menu a {
+  color: #f5f5f5; /* Color más claro que combina con el fondo */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#menu a:hover {
+  color: #f05cf7; /* Color al pasar el mouse por encima */
+}
+
+/* Ajustes de contenido */
+#agrupar {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Espacio debajo del contenido principal */
+}
+
+/* Estilos para el formulario de login */
+.login-container {
+  display: flex; /* Cambiado a flex para alinear elementos horizontalmente */
+  align-items: center; /* Alinea verticalmente */
+  justify-content: flex-start; /* Para que el botón se alinee a la izquierda */
+  margin-top: 20px; /* Espacio superior */
+  padding: 20px; /* Espacio interno */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+.login-form {
+  flex: 1; /* Ocupa el espacio restante */
+  margin-right: 20px; /* Espacio a la derecha del formulario */
+}
+
+.login-form h2 {
+  color: #d923a8; /* Color del texto del título */
+  text-align: center; /* Centrar el texto */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Espacio entre grupos de formulario */
+}
+
+.form-group label {
+  display: block; /* Hace que el label ocupe todo el ancho */
+  color: #2e97f2; /* Color del texto de las etiquetas */
+}
+
+.form-group input {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  padding: 10px; /* Espacio interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #0d0d0d; /* Color de fondo de las cajas de texto */
+  color: white; /* Color del texto en las cajas */
+}
+
+button {
+  padding: 10px 15px; /* Espacio interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #7350bf; /* Color del botón */
+  color: white; /* Color del texto */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+button:hover {
+  background-color: #d923a8; /* Color del botón al pasar el mouse */
+}
+
+/* Estilo para el dragón */
+#dragon {
+  margin-left: auto; /* Empuja el dragón a la derecha */
+}
+
+/* Footer con fondo negro semitransparente */
+footer {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+  color: rgb(247, 247, 247); /* Color general del footer */
+  padding: 20px 0;
+  margin-top: auto;
+  margin-top: 20px; /* Espacio superior del footer */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section h3 {
+  color: #f05cf7; /* Color del encabezado en el footer */
+}
+
+.footer-section p {
+  color: #e0e0e0; /* Color de los párrafos */
+  line-height: 1.5;
+}
+
+.footer-section a {
+  color: #ffffff; /* Color de los enlaces */
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #f05cf7; /* Color al pasar el mouse por encima */
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+}
+
+/* Botón de WhatsApp */
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
+#button-container {
+  display: inline-block; /* Para que el botón esté en línea con el logo */
+  margin-right: 15px; /* Espaciado entre el botón y el logo */
+}
+
+#mi-boton {
+  background-color: #7350bf; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  text-decoration: none; /* Sin subrayado */
+  border: none; /* Sin borde */
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+#mi-boton:hover {
+  background-color: #e045b1; /* Color al pasar el mouse */
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  #header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #menu ul {
+    flex-direction: column;
+  }
+
+  #menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  #agrupar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .login-container {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .login-form {
+    margin-right: 0;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .whatsapp {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  #logo img {
+    width: 120px;
+    height: 100px;
+  }
+
+  .login-container {
+    padding: 10px;
+  }
+
+  .footer-content {
+    padding: 10px;
+  }
+
+  .whatsapp {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+}
